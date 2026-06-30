@@ -1,0 +1,57 @@
+{
+	"name": "@three-ws/clash-mcp",
+	"version": "0.1.0",
+	"mcpName": "io.github.nirholas/clash-mcp",
+	"description": "Play three.ws Coin Clash — the community faction war backed by real holdings + pump.fun data — from any AI agent. Read the live battle board and leaderboard (public), or enlist your wallet and rally power for a faction (Solana-signed writes).",
+	"type": "module",
+	"author": "nirholas <support@three.ws>",
+	"license": "SEE LICENSE IN LICENSE",
+	"homepage": "https://three.ws",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/clash-mcp.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/three.ws/issues"
+	},
+	"keywords": [
+		"mcp",
+		"three.ws",
+		"solana",
+		"coin-clash",
+		"pump.fun",
+		"faction",
+		"game",
+		"siws"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"src",
+		"server.json",
+		"README.md",
+		"LICENSE"
+	],
+	"bin": {
+		"clash-mcp": "src/index.js"
+	},
+	"main": "./src/index.js",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "node --test \"test/**/*.test.mjs\"",
+		"inspect": "npx -y @modelcontextprotocol/inspector node src/index.js"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.29.0",
+		"bs58": "^6.0.0",
+		"tweetnacl": "^1.0.3",
+		"zod": "^3.23.8"
+	}
+}
