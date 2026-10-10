@@ -1,0 +1,20 @@
+# @three-ws/clash-mcp
+
+> Play three.ws Coin Clash — the community faction war backed by real holdings + pump.fun data — from any AI agent. Read the live battle board and leaderboard (public), or enlist your wallet and rally power for a faction (Solana-signed writes).
+
+@three-ws/clash-mcp is a Model Context Protocol server from three.ws. Install: `npx -y @three-ws/clash-mcp`.
+
+## Docs
+
+- [README](https://github.com/nirholas/clash-mcp/blob/main/README.md): install, configuration, full reference
+- [Documentation site](https://nirholas.github.io/clash-mcp/): the README as a web page
+- [Full text for LLMs](https://nirholas.github.io/clash-mcp/llms-full.txt): README inlined
+- [AGENTS.md](https://github.com/nirholas/clash-mcp/blob/main/AGENTS.md): guidance for coding agents
+
+## Project
+
+- [Source](https://github.com/nirholas/clash-mcp)
+- [npm](https://www.npmjs.com/package/@three-ws/clash-mcp)
+- [three.ws](https://three.ws): the platform this is part of
+- [Issues](https://github.com/nirholas/clash-mcp/issues)
+- [MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.nirholas%2Fclash-mcp)

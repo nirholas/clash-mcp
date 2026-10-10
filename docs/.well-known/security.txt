@@ -1,0 +1,4 @@
+Contact: mailto:support@three.ws
+Preferred-Languages: en
+Canonical: https://nirholas.github.io/clash-mcp/.well-known/security.txt
+Expires: 2027-10-10T22:01:26.907Z
