@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "clash": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@three-ws/clash-mcp"
+      ]
+    }
+  }
+}
